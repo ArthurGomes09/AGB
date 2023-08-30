@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #65451F;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    font-size: 100px;
+    height: 600px;
+    color: white;
+}
+.letreiro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin-top: 20px; */
+    background-image: url("/assets/balcao-de-padaria.webp");
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-left: 40px; */
+    align-items: center;
+    height: 600px;
+    
+}
+.letreiro img{
+}
+.header{
+    display: flex;
+    background-color: #EAC696;
+    justify-content: start;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    color: #000;
+    
+}
+.coment{
+    margin-left: 100px;
+    color: white;
+}
+ .letreiro2{
+    margin-left: 40px;
+    color: white;
+ }
+span{
+    color: #EAC696;
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: #EAC696;
+    justify-content: center;
+    text-transform: lowercase;
+    
+   
+}
+.produtos{
+    display: grid;
+    grid-template-columns: 390px 390px 390px;
+    grid-template-rows: 200px 200px;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    /* height: 200px; */
+}
+.menu{
+    display: grid;
+    /* grid-template-columns: 20px 20px 20px; */
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 55px;
+    align-items: center;
+    background-color: #C8AE7D;
+    width: 300px;
+    color: #65451F;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 60px;
+    cursor: pointer;
+    color: #65451F;
+    margin-left: 1000px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #65451F;
+}
+.letreiro3{
+    text-align: center;
+    margin: 40px;
+    color: #EAC696;
+}

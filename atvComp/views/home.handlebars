@@ -1,0 +1,23 @@
+<div class="letreiro">
+    {{!-- <img src="/assets/padaria.webp" alt=""> --}}
+    <div class="hero">
+        COMA BEM, SINTA-SE SAUDÁVEL...
+    </div>
+
+</div>
+<dir class="letreiro2">
+<h3>Faça <span>login</span>  para ter acesso ao nosso cardápio...</h3>
+</dir>
+
+
+<div class="coment">
+    {{#if auth}}
+    <p>Você está autenticado, <a href="/dashboard">clique aqui</a> para acessar o cardápio</p>
+    {{/if}}
+</div>
+
+{{#if approved}}
+    <p>Parabéns seu cadastro foi aprovado!</p>
+{{else}}
+    <p>OPS!! Seu cadastro necessita de aprovação!</p>
+{{/if}}
