@@ -1,0 +1,17 @@
+<div class="livrosDis">
+    <h1>Cursos disponíveis</h1>
+</div>
+<div class="books-container">
+    <a class="btnADD" href="/">Adicionar Curso</a>
+{{#each curso}}
+    <div class="Cursos"> 
+        # - {{this.id}} 
+        - 
+        <span class="bold">
+        <a href="/curso/{{this.id}}">{{this.nome_curso}}</a> 
+        </span> 
+        -
+         {{this.descricao}} ...
+    </div>
+{{/each}}
+</div>

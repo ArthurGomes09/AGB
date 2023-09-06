@@ -1,0 +1,17 @@
+<h1>Edite seu Curso</h1>
+<form action="/curso/updatecurso" method="post" class="form">
+<input type="hidden" name="id" value="{{curso.id}}">
+    <div class="form-control">
+        <label for="title">Título:</label>
+        <input type="text" name="nome_curso" value="{{curso.nome_curso}}">    
+    </div>
+    <div class="form-control">
+        <label for="descricao">Quantidade de páginas</label>
+        <input type="text" name="descricao" value="{{curso.descricao}}">    
+    </div>
+    
+        <div class="btn">
+        <input type="submit" value="Atualizar">
+        </div>
+</form>
+    
